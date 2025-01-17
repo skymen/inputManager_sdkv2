@@ -1,4 +1,4 @@
-<img src="./src/icon.svg?rand=2092" width="100" /><br>
+<img src="./src/icon.svg?rand=4578" width="100" /><br>
 # Input Manager
 ### Version 2.0.0.0
 
@@ -9,6 +9,7 @@
 ---
 Allows you to store and reuse inputs easily <br>
 <b><u>Author:</u></b> skymen <br>
+<b><u>Addon Url:</u></b> undefined <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
 ## Table of Contents

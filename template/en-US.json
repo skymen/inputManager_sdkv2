@@ -13,7 +13,7 @@
         },
         "properties": {},
         "actions": {
-          "SetDown": {
+          "setdown6": {
             "list-name": "Set down input",
             "display-text": "Set [b]{0}[/b] to down",
             "description": "Set an input to a down state",
@@ -24,7 +24,7 @@
               }
             }
           },
-          "SetUp": {
+          "setup5": {
             "list-name": "Set up input",
             "display-text": "Set [b]{0}[/b] to up",
             "description": "Set an input to an up state",
@@ -35,7 +35,7 @@
               }
             }
           },
-          "SimulateDownTrigger": {
+          "simulate-down-trigger": {
             "list-name": "Simulate Down Event",
             "display-text": "Simulate [b]{0}[/b] down event",
             "description": "This only triggers a down event, but does not change the state of the input",
@@ -46,7 +46,7 @@
               }
             }
           },
-          "SimulateUpTrigger": {
+          "simulate-up-trigger": {
             "list-name": "Simulate Up Event",
             "display-text": "Simulate [b]{0}[/b] up event",
             "description": "This only triggers an up event, but does not change the state of the input",
@@ -59,19 +59,19 @@
           }
         },
         "conditions": {
-          "AnyDown": {
+          "anydown4": {
             "list-name": "On Any Pressed",
             "display-text": "On any input pressed",
             "description": "Check if any input was last pressed",
             "params": {}
           },
-          "AnyUp": {
+          "anyup3": {
             "list-name": "On Any Released",
             "display-text": "On any input released",
             "description": "Check if any input was last released",
             "params": {}
           },
-          "IsDown": {
+          "isdown0": {
             "list-name": "Is Down",
             "display-text": "Is [b]{0}[/b] down",
             "description": "Check if an input is down",
@@ -82,7 +82,7 @@
               }
             }
           },
-          "OnDown": {
+          "ondown1": {
             "list-name": "On Input Pressed",
             "display-text": "On [b]{0}[/b] pressed",
             "description": "Check if an input was last pressed",
@@ -93,7 +93,7 @@
               }
             }
           },
-          "OnUp": {
+          "onup2": {
             "list-name": "On Input Released",
             "display-text": "On [b]{0}[/b] released",
             "description": "Check if an input was last released",
@@ -106,7 +106,7 @@
           }
         },
         "expressions": {
-          "GetLast": {
+          "getlast7": {
             "translated-name": "GetLast",
             "description": "Get the last input that was triggered",
             "params": {}
