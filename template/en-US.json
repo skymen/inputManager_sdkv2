@@ -6,7 +6,7 @@
       "skymeninputmanager": {
         "name": "Input Manager",
         "description": "Allows you to store and reuse inputs easily",
-        "help-url": "https://github.com/skymen/inputManager_sdkv2#properties",
+        "help-url": "https://www.construct.net/en/make-games/addons/294/input-manager/documentation",
         "aceCategories": {
           "general": "General",
           "simulate": "Simulate"
