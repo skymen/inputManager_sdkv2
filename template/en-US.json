@@ -1,0 +1,118 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for skymeninputmanager.",
+  "text": {
+    "plugins": {
+      "skymeninputmanager": {
+        "name": "Input Manager",
+        "description": "Allows you to store and reuse inputs easily",
+        "help-url": "https://www.construct.net",
+        "aceCategories": {
+          "general": "General",
+          "simulate": "Simulate"
+        },
+        "properties": {},
+        "actions": {
+          "SetDown": {
+            "list-name": "Set down input",
+            "display-text": "Set [b]{0}[/b] to down",
+            "description": "Set an input to a down state",
+            "params": {
+              "input0": {
+                "name": "Input",
+                "desc": "The input to set"
+              }
+            }
+          },
+          "SetUp": {
+            "list-name": "Set up input",
+            "display-text": "Set [b]{0}[/b] to up",
+            "description": "Set an input to an up state",
+            "params": {
+              "input0": {
+                "name": "Input",
+                "desc": "The input to set"
+              }
+            }
+          },
+          "SimulateDownTrigger": {
+            "list-name": "Simulate Down Event",
+            "display-text": "Simulate [b]{0}[/b] down event",
+            "description": "This only triggers a down event, but does not change the state of the input",
+            "params": {
+              "input": {
+                "name": "Input",
+                "desc": "The input to simulate a down input on"
+              }
+            }
+          },
+          "SimulateUpTrigger": {
+            "list-name": "Simulate Up Event",
+            "display-text": "Simulate [b]{0}[/b] up event",
+            "description": "This only triggers an up event, but does not change the state of the input",
+            "params": {
+              "input": {
+                "name": "Input",
+                "desc": "The input to simulate an up input on"
+              }
+            }
+          }
+        },
+        "conditions": {
+          "AnyDown": {
+            "list-name": "On Any Pressed",
+            "display-text": "On any input pressed",
+            "description": "Check if any input was last pressed",
+            "params": {}
+          },
+          "AnyUp": {
+            "list-name": "On Any Released",
+            "display-text": "On any input released",
+            "description": "Check if any input was last released",
+            "params": {}
+          },
+          "IsDown": {
+            "list-name": "Is Down",
+            "display-text": "Is [b]{0}[/b] down",
+            "description": "Check if an input is down",
+            "params": {
+              "input0": {
+                "name": "Input",
+                "desc": "The input to check"
+              }
+            }
+          },
+          "OnDown": {
+            "list-name": "On Input Pressed",
+            "display-text": "On [b]{0}[/b] pressed",
+            "description": "Check if an input was last pressed",
+            "params": {
+              "input0": {
+                "name": "Input",
+                "desc": "The input to check"
+              }
+            }
+          },
+          "OnUp": {
+            "list-name": "On Input Released",
+            "display-text": "On [b]{0}[/b] released",
+            "description": "Check if an input was last released",
+            "params": {
+              "input0": {
+                "name": "Input",
+                "desc": "The input to check"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "GetLast": {
+            "translated-name": "GetLast",
+            "description": "Get the last input that was triggered",
+            "params": {}
+          }
+        }
+      }
+    }
+  }
+}
