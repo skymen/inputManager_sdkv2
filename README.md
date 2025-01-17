@@ -1,8 +1,8 @@
-<img src="./src/icon.svg?rand=4578" width="100" /><br>
+<img src="./src/icon.svg?rand=8694" width="100" /><br>
 # Input Manager
-### Version 2.0.0.0
+### Version 2.0.0.1
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/inputManager_sdkv2/releases/download/SkymenInputManager-2.0.0.0.c3addon/SkymenInputManager-2.0.0.0.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/inputManager_sdkv2/releases/download/SkymenInputManager-2.0.0.1.c3addon/SkymenInputManager-2.0.0.1.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/inputManager_sdkv2/releases) </sub> <br>
 
