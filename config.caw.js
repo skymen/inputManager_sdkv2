@@ -11,8 +11,9 @@ export const id = "SkymenInputManager";
 export const name = "Input Manager";
 export const version = _version;
 export const author = "skymen";
-export const website = "https://www.construct.net";
-export const documentation = "https://www.construct.net";
+export const website = "https://github.com/skymen/inputManager_sdkv2";
+export const documentation =
+  "https://github.com/skymen/inputManager_sdkv2#properties";
 export const description = "Allows you to store and reuse inputs easily";
 export const category = ADDON_CATEGORY.INPUT;
 
