@@ -1,4 +1,4 @@
-<img src="./src/icon.svg?rand=2082" width="100" /><br>
+<img src="./src/icon.svg?rand=2092" width="100" /><br>
 # Input Manager
 ### Version 2.0.0.0
 
