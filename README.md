@@ -1,4 +1,4 @@
-<img src="./src/icon.svg?rand=8694" width="100" /><br>
+<img src="./src/icon.svg?rand=8247" width="100" /><br>
 # Input Manager
 ### Version 2.0.0.1
 
@@ -9,7 +9,7 @@
 ---
 Allows you to store and reuse inputs easily <br>
 <b><u>Author:</u></b> skymen <br>
-<b><u>Addon Url:</u></b> undefined <br>
+<b><u>Addon Url:</u></b> https://www.construct.net/en/make-games/addons/294/input-manager <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
 ## Table of Contents
