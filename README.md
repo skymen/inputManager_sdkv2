@@ -1,13 +1,13 @@
 <img src="./src/icon.svg" width="100" /><br>
-# Sample Addon
-### Version 1.0.0.0
+# Input Manager
+### Version 2.0.0.0
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/ConstructFund/construct-addon-wizard-scaffold/releases/download/sample_addon-1.0.0.0.c3addon/sample_addon-1.0.0.0.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/inputManager_sdkv2/releases/download/SkymenInputManager-2.0.0.0.c3addon/SkymenInputManager-2.0.0.0.c3addon)
 <br>
-<sub> [See all releases](https://github.com/ConstructFund/construct-addon-wizard-scaffold/releases) </sub> <br>
+<sub> [See all releases](https://github.com/skymen/inputManager_sdkv2/releases) </sub> <br>
 
 ---
-Description <br>
+Allows you to store and reuse inputs easily <br>
 <b><u>Author:</u></b> skymen <br>
 <sub>Made using [CAW](https://marketplace.visualstudio.com/items?itemName=skymen.caw) </sub><br>
 
@@ -46,26 +46,25 @@ npm run dev
 ## Actions
 | Action | Description | Params
 | --- | --- | --- |
-| Sample Action | This is a sample action | Param1             *(string)* <br> |
-| Sample Action Async | This is a sample action |  |
-| Sample Action Combo | This is a sample action | Param1             *(combo)* <br> |
-| Sample Action | This is a sample action | Param1             *(string)* <br> |
+| Set down input | Set an input to a down state | Input             *(string)* <br> |
+| Set up input | Set an input to an up state | Input             *(string)* <br> |
+| Simulate Down Event | This only triggers a down event, but does not change the state of the input | Input             *(string)* <br> |
+| Simulate Up Event | This only triggers an up event, but does not change the state of the input | Input             *(string)* <br> |
 
 
 ---
 ## Conditions
 | Condition | Description | Params
 | --- | --- | --- |
-| Sample Condition | This is a sample condition | Param1 *(string)* <br> |
-| Sample Trigger | This is a sample trigger |  |
-| Sample Condition | This is a sample condition | Param1 *(combo)* <br> |
-| Sample Condition | This is a sample condition |  |
+| On Any Pressed | Check if any input was last pressed |  |
+| On Any Released | Check if any input was last released |  |
+| Is Down | Check if an input is down | Input *(string)* <br> |
+| On Input Pressed | Check if an input was last pressed | Input *(string)* <br> |
+| On Input Released | Check if an input was last released | Input *(string)* <br> |
 
 
 ---
 ## Expressions
 | Expression | Description | Return Type | Params
 | --- | --- | --- | --- |
-| Expression | Sample Expression | number |  | 
-| Expression2 | Sample Expression | string |  | 
-| SampleExpression | This is a sample expression | string |  | 
+| GetLast | Get the last input that was triggered | string |  | 
