@@ -76,6 +76,7 @@ export default async function generateDocumentation() {
   const readme = [];
   readme.push(getCoverImage());
   readme.push(`# ${config.name}`);
+  readme.push(`<i>${config.description}</i> <br>`);
   const githubUrl = await getGithubURL();
   if (githubUrl && githubUrl !== "") {
     let addonFileName = `${config.id}-${config.version}.c3addon`;
@@ -90,17 +91,25 @@ export default async function generateDocumentation() {
 
   readme.push("");
   readme.push("---");
-  readme.push(`${config.description} <br>`);
   readme.push(`<b><u>Author:</u></b> ${config.author} <br>`);
   if (
     config.website &&
     config.website !== "" &&
     config.website !== "https://www.construct.net"
   ) {
-    readme.push(`<b><u>Website:</u></b> ${config.website} <br>`);
+    readme.push(`<b>[Addon Website](${config.website})</b>  <br>`);
+  }
+  if (
+    config.documentation &&
+    config.documentation !== "" &&
+    config.documentation !== "https://www.construct.net"
+  ) {
+    readme.push(`<b>[Documentation](${config.documentation})</b>  <br>`);
   }
   if (publishConfig && publishConfig.addonUrl !== "") {
-    readme.push(`<b><u>Addon Url:</u></b> ${publishConfig.addonUrl} <br>`);
+    readme.push(
+      `<b>[Construct Addon Page](${publishConfig.addonUrl})</b>  <br>`
+    );
   }
   //add link to c3ide2-framework
   readme.push(
