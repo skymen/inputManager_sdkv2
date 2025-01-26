@@ -1,9 +1,9 @@
-<img src="./src/icon.svg?rand=1479" width="100" /><br>
+<img src="./src/icon.svg?rand=7061" width="100" /><br>
 # Input Manager
 <i>Allows you to store and reuse inputs easily</i> <br>
-### Version 2.0.0.1
+### Version 2.0.0.2
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/inputManager_sdkv2/releases/download/SkymenInputManager-2.0.0.1.c3addon/SkymenInputManager-2.0.0.1.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/inputManager_sdkv2/releases/download/SkymenInputManager-2.0.0.2.c3addon/SkymenInputManager-2.0.0.2.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/inputManager_sdkv2/releases) </sub> <br>
 
