@@ -18,6 +18,7 @@ action(
     params: [
       {
         id: "input0",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to set",
         type: "string",
@@ -50,6 +51,7 @@ action(
     params: [
       {
         id: "input0",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to set",
         type: "string",
@@ -82,6 +84,7 @@ action(
     params: [
       {
         id: "input",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to simulate a down input on",
         type: "string",
@@ -111,6 +114,7 @@ action(
     params: [
       {
         id: "input",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to simulate an up input on",
         type: "string",
@@ -139,6 +143,7 @@ condition(
     params: [
       {
         id: "input0",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to check",
         type: "string",
@@ -166,6 +171,7 @@ condition(
     params: [
       {
         id: "input0",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to check",
         type: "string",
@@ -193,6 +199,7 @@ condition(
     params: [
       {
         id: "input0",
+        autocompleteId: "key",
         name: "Input",
         desc: "The input to check",
         type: "string",

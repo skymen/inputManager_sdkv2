@@ -48,6 +48,16 @@ const paramSchema = Joi.object({
         initialValue: Joi.string().required().allow(""),
       }),
     }
+  )
+  .when(
+    Joi.object({
+      type: Joi.string().valid("string"),
+    }).unknown(),
+    {
+      then: Joi.object({
+        autocompleteId: Joi.string().optional(),
+      }),
+    }
   );
 
 // Define the common schema
