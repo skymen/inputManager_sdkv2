@@ -133,7 +133,6 @@ condition(
     c2id: 0,
     highlight: false,
     deprecated: false,
-    isTrigger: true,
     listName: "Is Down",
     displayText: "Is [b]{0}[/b] down",
     description: "Check if an input is down",
